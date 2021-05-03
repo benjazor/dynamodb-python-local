@@ -13,7 +13,7 @@ services:
     image: tiny-app:latest
     container_name: app-node
     ports:
-      - "8080:5050"
+      - "8080:5000"
     depends_on:
       - "dynamodb-local"
     links:
